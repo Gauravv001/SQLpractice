@@ -1,0 +1,43 @@
+1. Views what are views + syntax.
+2. Primary key syntax + foreign key syntax.
+3. Window functions topics.
+4. indexing syntax complete.
+5. PARTITION BY = Find duplicate groups
+
+ORDER BY = Decide the winner in each group
+
+
+UNION combines the results of two or more SELECT statements and removes duplicate rows. 
+UNION ALL also combines result sets but retains duplicates. Since UNION ALL does not perform duplicate elimination, it is generally faster than UNION.
+
+UNION      = Unique rows only
+UNION ALL  = All rows, including duplicates
+
+
+| Feature                                | UNION | UNION ALL |
+| -------------------------------------- | ----- | --------- |
+| Combines multiple result sets          | ✅     | ✅         |
+| Removes duplicates                     | ✅ Yes | ❌ No      |
+| Returns only unique rows               | ✅     | ❌         |
+| Faster                                 | ❌ No  | ✅ Yes     |
+| Additional sorting/comparison required | ✅ Yes | ❌ No      |
+
+
+
+-- How can you remove duplicate rows from a table, keeping only the first occurrence?
+-- How would you find pairs of employees reporting to the same manager?
+-- Recursive queries to find the counting and even number list and odd number list 
+-- Recursive queries to find herirarchy of employees.
+-- Running sum questions.
+
+
+
+Hi, I'm Gaurav Sharma, currently working as a Data Engineer Analyst at Accenture. I hold a B.Tech in Electronics domain, and over the last few years, I've built strong expertise in Snowflake, PySpark, SQL, and modern data engineering practices.
+
+In my current role, I work on designing scalable data models, developing and optimizing large-scale ETL pipelines, and building robust data platforms that support both analytics and machine learning workloads. One of my key achievements has been optimizing data pipelines processing large volumes of insurance data, which significantly improved performance while reducing operational costs.
+
+Beyond traditional data engineering, I've also worked on integrating Generative AI into enterprise workflows. A notable project involved building an MCP-based solution that connected Claude AI with platforms such as Snowflake, Oracle, Rally, Autosys, and GitHub, enabling AI-assisted data engineering and automation capabilities.
+
+I'm passionate about exploring how AI can enhance data engineering workflows.
+
+What excites me most about data engineering is the opportunity to solve complex business problems through scalable and efficient data solutions while continuously learning and working with emerging technologies like AI and intelligent automation. I'm looking forward to leveraging my experience, contributing to impactful projects, and continuing to grow in challenging data-focused roles.
